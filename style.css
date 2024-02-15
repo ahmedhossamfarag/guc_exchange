@@ -1,0 +1,33 @@
+.outer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+.plane{
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 1em 1em 1em 1em;
+}
+.glyphicon-menu-right, .glyphicon-menu-down{
+    float: right;
+}
+i{
+    color: blue;
+    display: block;
+    padding-top: 0.25em;
+}
+.panel{
+    font-size: 2em;
+}
+label{
+    color: blue;
+}
